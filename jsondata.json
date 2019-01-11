@@ -1,0 +1,38 @@
+{people:[
+  {
+    "id": "10",
+    "name": "Leslie",
+    "friends": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Liliana",
+    "friends": []
+  },
+  {
+    "id": "12",
+    "name": "Francesca",
+    "friends": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  }
+]
+}
