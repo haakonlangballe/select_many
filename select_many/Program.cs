@@ -64,7 +64,7 @@ namespace select_many
             var deser3 = JsonConvert.DeserializeObject<people>(one_emails);
             var deser4 = JsonConvert.DeserializeObject<List<people>>(many_mails);
 
-            var res3 = deser4.SelectMany(f => f.Friends.DefaultIfEmpty(new friend()), (a, b, c) => new flat_person
+            var res3 = deser4.SelectMany(f => f.Friends.DefaultIfEmpty(new friend()), (a, b) => new flat_person
             {
                 Id = a.Id
                 ,Name = a.Name
